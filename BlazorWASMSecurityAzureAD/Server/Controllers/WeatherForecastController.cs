@@ -5,7 +5,7 @@ using Microsoft.Identity.Web.Resource;
 
 namespace BlazorWASMSecurityAzureAD.Server.Controllers
 {
-    [Authorize]
+    [Authorize(Roles = "administrator")]
     [ApiController]
     [Route("[controller]")]
     [RequiredScope(RequiredScopesConfigurationKey = "AzureAd:Scopes")]
