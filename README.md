@@ -1,3 +1,5 @@
+![image](https://user-images.githubusercontent.com/2757486/158978139-a2097c49-99ab-4653-ae6c-9a004b926db9.png)
+
 # BlazorWASMHostedAzureADAuth
 This repository is an example for Blazor WASM Hosted app secured by Azure Active Directory.
 
